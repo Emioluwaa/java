@@ -7,18 +7,16 @@ Scanner input = new Scanner(System.in);
 
 System.out.print("Enter a number: ");
 
-long num = input.nextInt();
-
+long num = input.nextLong();
 
 long index; 
 
-  for(index = 10; num <= index; index++);
+  for(index = 1; index <= num; index++) {
 
     if (num % index == 0){
 
-long result = num / index;
-
-System.out.println(result);
+        System.out.println(index);
+            }
         }
     }
 }
