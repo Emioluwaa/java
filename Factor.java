@@ -1,23 +1,23 @@
 import java.util.Scanner;
 
-public class Factorial {
+public class Factor {
     public static void main(String[] args) {
 
 Scanner input = new Scanner(System.in);
 
 System.out.print("Enter a number: ");
+int num = input.nextInt();
 
-long num = input.nextLong();
 
-long index; 
+ int index; 
 
-  for(index = 1; index <= num; index++) {
+  for(index = 2; index <= num; index++)
 
     if (num % index == 0){
 
-        System.out.println(index);
-            }
+ int result = num / index;
+
+System.out.println(result);
         }
     }
 }
-
