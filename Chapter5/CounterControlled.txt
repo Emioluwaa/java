@@ -1,0 +1,12 @@
+Four basic elements of counter-controlled iteration;
+
+it requires a contol variable like a loop counter
+
+the increment by which the control variable is modified each time through the loop (al-
+so known as each iteration of the loop)
+
+The loop-continuation condition that determines
+whether looping should continue
+
+
+5.6             While loop can be used to implement any counter-controlled loop but for begins executing as soon as its variable as been initialized , it only stop when the condition is false.. we can actually do the same workings with both

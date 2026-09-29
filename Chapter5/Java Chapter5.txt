@@ -1,0 +1,56 @@
+5.1     a) for, while. b) after. c) switch. d) continue. e) && (conditional AND). f) false.
+g) static.
+
+5.2     a) False. The default case is optional. If no default action is needed, then there’s no need
+for a default case. b) False. The break statement is used to exit the switch statement. The break
+statement is not required for the last case in a switch statement. c) False. Both of the relational expressions must be true for the entire expression to be true when using the && operator. d) True.
+e) True. f) False. The switch statement does not provide a mechanism for testing ranges of values,
+so every value that must be tested should be listed in a separate case label. g) True
+
+ 5.3   a) sum = 0;
+for (count = 1; count <= 99; count += 2) {
+sum += count;
+}
+
+    b) double result = Math.pow(2.5, 3);
+
+    c) i = 1;
+while (i <= 20) {
+System.out.print(i);
+if (i % 5 == 0) {
+System.out.println();
+}
+else {
+System.out.print('\t');
+}
+++i;
+}
+
+
+    d)  for (i = 1; i <= 20; i++) {
+System.out.print(i);
+if (i % 5 == 0) {
+System.out.println();
+}
+else {
+System.out.print('\t');
+}
+}
+
+ 5.4       a) Error: The semicolon after the while header causes an infinite loop, and there’s a miss-
+ing left brace.
+Correction: Replace the semicolon by a {, or remove both the ; and the }.
+    b) Error: Using a floating-point number to control a for statement may not work, because
+floating-point numbers are represented only approximately by most computers.
+Correction: Use an integer, and perform the proper calculation to get the values you de-
+sire, as in:
+for (k = 1; k != 10; k++) {
+System.out.println((double) k / 10);
+}
+
+        c) Error: The missing code is the break statement in the statements for the first case.
+Correction: Add a break statement at the end of the statements for the first case. This
+omission is not necessarily an error if you want the statement of case 2: to execute every
+time the case 1: statement executes.
+d) Error: An improper relational operator is used in the while’s continuation condition.
+Correction: Use <= rather than <, or change 10 to 11.
