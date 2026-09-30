@@ -5,17 +5,26 @@ public class Factorial {
 
 Scanner input = new Scanner(System.in);
 
-System.out.print("Enter a number: ");
+System.out.print("Enter firstNumber: ");
+long numberOne = input.nextLong();
 
-long num = input.nextLong();
+System.out.print("Enter secondNumber: ");
+long numberTwo = input.nextLong();
 
-long index; 
 
-  for(index = 1; index <= num; index++) {
+long index;
+long count; 
 
-    if (num % index == 0){
+  for(index = 1; index <= numberOne ; index++) {
+        
+    if (numberOne % index == 0){
 
         System.out.println(index);
+        }
+   }
+    for(count = 1; count <= numberTwo; count++){
+        if (numberTwo % count == 0) {
+        System.out.println(count);
             }
         }
     }

@@ -298,7 +298,7 @@ Press
 5. Countdown timer
 6. Auto update of date and time2
 """;
-                 System.out.println(ClockPrompt); 
+                 System.out.println(clockPrompt); 
 
                     int clockChoice = input.nextInt();
                   switch(clockChoice){

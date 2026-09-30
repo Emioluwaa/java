@@ -1,75 +1,52 @@
 
 import java.util.Scanner;
 
-public class Largest{
+public class TaskOne{
 
    public static void main(String[] args){
 
 Scanner input = new Scanner(System.in);
 
-System.out.print("Enter First number:  ");
+System.out.print("Enter First score:  ");
 
 int number1 = input.nextInt();
 
-System.out.print("Enter Second number:  ");
+System.out.print("Enter Second score:  ");
 
 int number2 = input.nextInt();
 
-System.out.print("Enter Third number:  ");
+System.out.print("Enter Third score:  ");
 
 int number3 = input.nextInt();
 
-System.out.print("Enter Fourth number:  ");
+System.out.print("Enter Fourth score:  ");
 
 int number4 = input.nextInt();
 
-System.out.print("Enter Fifth number:  ");
+System.out.print("Enter Fifth score:  ");
 
 int number5 = input.nextInt();
 
-int largest = number1;
+System.out.print("Enter Sixth score:  ");
 
-int smallest =  number1;
+int number6 = input.nextInt();
 
-if(number2 > largest){
-    
-largest = number2;
-}
+System.out.print("Enter Seven score:  ");
 
-if (number3 > largest){
+int number7 = input.nextInt();
 
-largest = number3;
-}
+System.out.print("Enter Eight score:  ");
 
-if (number4 > largest){
+int number8 = input.nextInt();
 
-largest = number4;
-}
+System.out.print("Enter Ninth score:  ");
 
-if (number5 > largest){
+int number9 = input.nextInt();
 
-largest = number5;
-}
+System.out.print("Enter Tenth score:  ");
 
-if(number2 < smallest){
-    
-smallest = number2;
-}
+int number10 = input.nextInt();
 
-if (number3 < smallest){
-
-smallest = number3;
-}
-
-if (number4 < smallest){
-
-smallest = number4;
-}
-
-if (number5 < smallest){
-
-smallest = number5;
-}
 System.out.println("largest = " + largest);
 
 System.out.println("smallest = " + smallest);
