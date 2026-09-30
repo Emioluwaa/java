@@ -1,5 +1,5 @@
 public class Interest{
-      public static void mian(String[] args){
+      public static void main(String[] args){
       
       double principal = 1000;
        for (double rate = 0.05; rate <= 0.10; rate += 0.01) {
